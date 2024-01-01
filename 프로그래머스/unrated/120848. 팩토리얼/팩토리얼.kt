@@ -3,11 +3,10 @@ class Solution {
         var i = 1
         while(true){
             if(factorial(i)>n){
-                break
+                return i-1
             }
             i++
         }
-        return i-1
     }
 }
 
