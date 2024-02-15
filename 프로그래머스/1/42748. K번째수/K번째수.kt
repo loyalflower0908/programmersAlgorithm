@@ -1,0 +1,3 @@
+class Solution {
+    fun solution(array: IntArray, commands: Array<IntArray>) = commands.map{ array.sliceArray(it[0]-1 until it[1]).sorted()[it[2]-1] }
+}
